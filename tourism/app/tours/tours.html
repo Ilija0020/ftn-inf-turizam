@@ -31,6 +31,24 @@
         </table>
         <div id="tour-details"></div>
         </div>
+        <div class="right-container">
+            <form action="#" class="form">
+                <h2>Dodaj novu turu</h2>
+                <label for="tour-name">Naziv ture:</label>
+                <input type="text" id="tour-name" name="tour-name" required>
+
+                <label for="tour-length">Duzina (km):</label>
+                <input type="number" id="tour-length" name="tour-length" required>
+
+                <label for="tour-tags">Oznake (odvojene zarezom):</label>
+                <input type="text" id="tour-tags" name="tour-tags" placeholder="npr. istorija,priroda" required>
+
+                <label for="tour-description">Opis ture:</label>
+                <textarea id="tour-description" name="tour-description" rows="4" required></textarea>
+
+                <button type="button" id="submitBtn">Dodaj turu</button>
+            </form>
+        </div>
     </div>
 
     <script src="tours.js"></script>
